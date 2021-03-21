@@ -155,5 +155,5 @@ Do mesmo modo, se o Estado `São Paulo` for selecionado, então, apenas as cidad
 
 Repare que, dependendo do valor selecionado no primeiro dicionário, apenas alguns valores do segundo dicionário ficam visíveis, e são justamente os filhos do valor(registro) selecionado. Este é o comportamento padrão para tal relação: o sistema exibe apenas os valores que são filhos do valor selecionado, caso haja uma relação de pai-filho entre dois dicionários.
 
-Este tipo de relação não é válida apenas para o `dropdown`. Ela também é válida para outros itens de múltipla escola, como o `radiobuttonlist`, por exemplo.
+Este tipo de relação não é válida apenas para o `dropdown`. Ela também é válida para outros itens de múltipla escola, como o `radiobuttonlist`, por exemplo.<br>
 
