@@ -16,7 +16,10 @@ has_children: false
 
 ## Dicionários
 
-Como já mencionado anteriormente (veja [Persistência de Dados](datapersistency.md) e [Propriedades de Banco de Dados](items/databaseproperties.md)), um `item de dicionário` associa um valor à sua representação textual. Deste modo, registros no Banco de Dados podem referenciar um dado `item de dicionário` através de uma chave estrangeira (valor numérico), em vez de armazenarem valores textuais.
+Como já mencionado anteriormente (veja [Persistência de Dados](datapersistency.md) e [Propriedades de Banco de Dados](items/databaseproperties.md)), um `item de dicionário` associa um valor à sua representação textual. Deste modo, registros no Banco de Dados podem referenciar um dado `item de dicionário` através de uma chave estrangeira (valor numérico), em vez de armazenarem valores textuais.<br>
+
+<img src="img/table1.png">
+
 
 Contudo, esta não é a única função dos dicionários. Além de fazer uma associação entre um valor numérico e sua representação textual, um `dicionário` também pode ser visto como um agrupador de valores, em que cada item de dicionário(registro) é um valor específico. O campo `DICTID` na tabela de dicionários(`DICTIONARIES`) identifica a qual `dicionário` um `item de dicionário` pertence, considerando um mesmo slot.
 
